@@ -47,4 +47,21 @@ public class RoomOccupancy {
     public void setRevenueEconomy(double revenueEconomy) {
         this.revenueEconomy = revenueEconomy;
     }
+
+    public void incrementUsagePremium() {
+        this.usagePremium++;
+    }
+
+    public void addToRevenuePremium(double amount) {
+        this.revenuePremium += amount;
+    }
+
+    public void incrementUsageEconomy() {
+        this.usageEconomy++;
+    }
+
+    public void addToRevenueEconomy(double amount) {
+        this.revenueEconomy += amount;
+    }
+
 }
